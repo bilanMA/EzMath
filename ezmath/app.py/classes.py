@@ -6,7 +6,7 @@ class Calculator:
         master.title("Calculator")
 
         # Create display widget
-        self.display = tk.Entry(master, width=25, font=('Arial', 16), justify='right', bd=5)
+        self.display = tk.Entry(master, width=25, font=('Comic Sans', 16), justify='right', bd=5)
         self.display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
         # Create buttons
